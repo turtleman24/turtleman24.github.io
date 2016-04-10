@@ -15,5 +15,10 @@ button {
     background-color:rgba(255,255,0,.5);
 }
 .bgimg{
-    background: url(http://ultimatewalrus.com/turtles/img2/o-TURTLE-facebook.jpg)
+    background: url(http://ultimatewalrus.com/turtles/img2/o-TURTLE-facebook.jpg) center/300px 300px no-repeat;
+    bottom: 0px;
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    
 }
