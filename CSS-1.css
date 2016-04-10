@@ -1,5 +1,5 @@
 h1{
-    font-family: serif;
+    font-family: 'Monoton', cursive;
 }
 
 div {
@@ -7,4 +7,10 @@ div {
     margin-right: auto;
     text-align: center;
     border: 8px outset silver;
+    background-color: #9f9;
+    padding: 10px;
+}
+
+button {
+    background-color:rgba(255,255,0,.5);
 }
