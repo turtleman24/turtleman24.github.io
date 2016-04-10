@@ -2,7 +2,7 @@ h1{
     font-family: 'Monoton', cursive;
 }
 
-div {
+.heading {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -13,4 +13,7 @@ div {
 
 button {
     background-color:rgba(255,255,0,.5);
+}
+.bgimg{
+    background: url(http://ultimatewalrus.com/turtles/img2/o-TURTLE-facebook.jpg)
 }
