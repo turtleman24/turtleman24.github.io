@@ -5,7 +5,11 @@ function switchpicture() {
     var tag=document.getElementById("switch");
     selectedImage = (selectedImage+1) % 2;
     tag.style.backgroundImage=images[selectedImage];
-    if (selectedImage==1) {
+    var button=document.getElementById("switchtext");
+    if (selectedImage==0) {
+        button.innerHTML="like them";
+    } else {
         alert('See, it\'s easy!.  Good job!');
+        button.innerHTML="click again";
     }
 }
