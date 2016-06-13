@@ -20,7 +20,7 @@ button {
     height: 300px;
     width: 300px;
     margin: 10px auto;
-    box-shadow: 10px;
+    box-shadow: 10px 5px 5px black;
 }
 p{
     text-align: center
